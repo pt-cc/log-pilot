@@ -2,7 +2,7 @@
 
 ## Overview
 
-For k3s,elk
+For k3s,elk。发现个奇怪的问题，使用filebeat-6.1.1不能创建自定义的索引。使用filebeat-6.1.1-3就没有问题。
 
 ## Get started
 
