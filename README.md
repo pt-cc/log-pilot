@@ -8,6 +8,8 @@ For k3s,elk
 
 ### docker version
 ```buildoutcfg
+docker build -t log-pilot-filebeat:docker -f Dockerfile.docker .
+
 docker run -d \
    --name log-pilot-filebeat \
    -v /var/run/docker.sock:/var/run/docker.sock \
@@ -22,6 +24,8 @@ docker run -d \
 
 ### contianerd version
 ```buildoutcfg
+docker build -t log-pilot-filebeat:docker -f Dockerfile.containerd .
+
 docker run -d \
    --name log-pilot-filebeat \
    -v /run/k3s/containerd/containerd.sock:/var/run/containerd/containerd.sock \

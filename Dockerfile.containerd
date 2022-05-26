@@ -1,5 +1,7 @@
 FROM golang:1.15-alpine as builder
 
+MAINTAINER "caipengtao <995958026@qq.com>"
+
 ENV PILOT_DIR /go/src/github.com/AliyunContainerService/log-pilot
 ARG GOOS=linux
 ARG GOARCH=amd64
