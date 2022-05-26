@@ -24,7 +24,7 @@ docker run -d \
 
 ### contianerd version
 ```buildoutcfg
-docker build -t log-pilot-filebeat:docker -f Dockerfile.containerd .
+docker build -t log-pilot-filebeat:containerd -f Dockerfile.containerd .
 
 docker run -d \
    --name log-pilot-filebeat \
